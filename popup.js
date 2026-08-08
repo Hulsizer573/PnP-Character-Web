@@ -10,10 +10,10 @@ export function showBox(id) {
 
     document.getElementById("popupName").innerText = character.name;
     document.getElementById("popupImage").src = character.image;
-    document.getElementById("popupPeerage").innerText = character.peerage;
-    document.getElementById("popupAddress").innerText = character.address;
+    document.getElementById("popupPeerage").innerText = character.class;
+    document.getElementById("popupAddress").innerText = character.species;
     document.getElementById("popupAge").innerText = character.age;
-    document.getElementById("popupFace").innerText = character.faceclaim;
+    document.getElementById("popupFace").innerText = character.origin;
     document.getElementById("popupPlayedBy").innerText = character.playedBy;
 
     document.getElementById("moreInfoBtn").dataset.id = id;
