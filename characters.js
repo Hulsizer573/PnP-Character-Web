@@ -13,20 +13,20 @@ hasInfo: flags whether to search for text document and displays 'more info' butt
 */
 export const characters = [
     {
-        id: "elenor",
-        name: "Elenor Huntley",
+        id: "xeno",
+        name: "Xeno Varyn (Izneris)",
         image: "images/AK.jpg",
-        peerage: "Countess",
-        address: "Lady Huntley",
+        Class: "Sorcerer",
+        Species: "Elf",
         age: 24,
-        faceclaim: "Alina Kovalenko",
+        Origin: "Minarum, Evoler",
         hasInfo: true,
-        playedBy: "Kay"
+        playedBy: "Zach"
     },
 
     {
-        id: "forbes",
-        name: "Forbes Bland",
+        id: "nzuri",
+        name: "Nzuri Alshaar",
         image: "images/BirkanSokullu.png",
         peerage: "Baron",
         address: "Bland (never warmly) or Forbes among those who tolerate him",
@@ -34,7 +34,7 @@ export const characters = [
         faceclaim: "Birkan Sokullu",
         deceased: true,
         hasInfo: false,
-        playedBy: "None"
+        playedBy: "Kay"
     },
 
     {
