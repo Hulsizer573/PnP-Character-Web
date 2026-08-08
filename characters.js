@@ -16,10 +16,10 @@ export const characters = [
         id: "xeno",
         name: "Xeno Varyn (Izneris)",
         image: "images/AK.jpg",
-        Class: "Sorcerer",
-        Species: "Elf",
+        class: "Clockwork Sorcerer",
+        species: "Elf",
         age: 24,
-        Origin: "Minarum, Evoler",
+        origin: "Minarum, Evoler",
         hasInfo: true,
         playedBy: "Zach"
     },
@@ -28,293 +28,181 @@ export const characters = [
         id: "nzuri",
         name: "Nzuri Alshaar",
         image: "images/BirkanSokullu.png",
-        peerage: "Baron",
-        address: "Bland (never warmly) or Forbes among those who tolerate him",
-        age: "36 (deceased)",
-        faceclaim: "Birkan Sokullu",
-        deceased: true,
-        hasInfo: false,
-        playedBy: "Kay"
-    },
-
-    {
-        id: "nigel",
-        name: "Nigel Vaughan",
-        image: "images/AdeelAkhtar.png",
-        peerage: "Marquis",
-        address: "Monsieur le Marquis de Vaughan",
-        age: "55 (deceased)",
-        faceclaim: "Adeel Akhtar",
-        deceased: true,
-        hasInfo: false,
-        playedBy: "None"
-    },
-
-    {
-        id: "matthew",
-        name: "Matthew Caunter",
-        image: "images/RichardMadden.png",
-        peerage: "Marquess",
-        address: "Lord Caunter",
-        age: "29",
-        faceclaim: "Richard Madden",
-        hasInfo: true,
-        playedBy: "Kay"
-    },
-
-    {
-        id: "lucius",
-        name: "Lucius Hilgrove",
-        image: "images/SebastianAmoruso.png",
-        peerage: "Count",
-        address: "Count Hilgrove",
-        age: "24",
-        faceclaim: "Sebastian Amoruso",
-        hasInfo: true,
-        playedBy: "Nevi"
-    },
-
-    {
-        id: "patricia",
-        name: "Patricia Bell",
-        image: "images/LucyLawless.png",
-        peerage: "None",
-        address: "None",
-        age: "60",
-        faceclaim: "Lucy Lawless",
-        hasInfo: true,
-        playedBy: "Nevi"
-
-    },
-
-    {
-        id: "esmerelda",
-        name: "Esmerelda Hyde",
-        image: "images/AnyaTaylorJoy.png",
-        peerage: "None",
-        address: "Lady Hyde",
-        age: "18",
-        faceclaim: "Anya Taylor-Joy",
-        hasInfo: true,
-        playedBy: "Nevi"
-    },
-
-    {
-        id: "imelda",
-        name: "Imelda Hyde",
-        image: "images/JENNIFER_COOLIDGE_5.png",
-        peerage: "Baroness (in her husband's right)",
-        address: "Lady Hyde",
-        age: 64,
-        faceclaim: "Jennifer Coolidge",
-        hasInfo: true,
-        playedBy: "Joel"
-    },
-
-    {
-        id: "edward",
-        name: "Edward Hyde",
-        image: "images/PatrickGibson.png",
-        peerage: "Baron",
-        address: "Lord Hyde",
+        class: "Bond of Dragonkin Soulbinder",
+        species: "Human",
         age: "21",
-        faceclaim: "Patrick Gibson",
+        origin: "Redbud Hollow, Golgareth",
         hasInfo: true,
-        playedBy: "JD"
-    },
-
-    {
-        id: "oliver",
-        name: "Oliver Gracefeld",
-        image: "images/RufusSewell.png",
-        peerage: "Earl",
-        address: "Count Gracefeld",
-        age: "25",
-        faceclaim: "Rufus Sewell",
-        hasInfo: true,
-        playedBy: "Zach"
-    },
-
-    {
-        id: "james",
-        name: "James Lancaster",
-        image: "images/TobyAlexanderSmith.png",
-        peerage: "Baron",
-        address: "Lord Lancaster",
-        age: "27",
-        faceclaim: "Toby-Alexander Smith",
-        hasInfo: true,
-        playedBy: "Joel"
-
-    },
-
-    {
-        id: "rosalind",
-        name: "Rosalind Lancaster",
-        image: "images/LarissaOpitz.png",
-        peerage: "Baroness",
-        address: "Lady Lancaster",
-        age: "25",
-        faceclaim: "Larissa Opitz",
-        hasInfo: false,
         playedBy: "Kay"
     },
 
     {
-        id: "damian",
-        name: "Damian Ravenscroft",
-        image: "images/ChristianDaloi3.png",
-        peerage: "Viscount",
-        address: "Lord Ravenscroft",
-        age: 26,
-        faceclaim: "Christian Daloi",
+        id: "sapphire",
+        name: "Sapphire 'Saf' Alshaar",
+        image: "images/AdeelAkhtar.png",
+        class: "Mastermaker Artificer",
+        species: "Human",
+        age: "24",
+        origin: "Redbud Hollow, Golgareth",
+        hasInfo: true,
+        playedBy: "Porom"
+    },
+
+    {
+        id: "pollux",
+        name: "Pollux",
+        image: "images/RichardMadden.png",
+        class: "Fighter",
+        species: "Tabaxi",
+        age: "29",
+        origin: "Clavaudhna",
+        hasInfo: true,
+        playedBy: "Jill"
+    },
+
+    {
+        id: "llyr",
+        name: "Llyr Verran",
+        image: "images/SebastianAmoruso.png",
+        class: "Runecrafter Wizard",
+        species: "Human",
+        age: "28",
+        origin: "Clavaudhna",
         hasInfo: true,
         playedBy: "JD"
     },
 
     {
-        id: "arthur",
-        name: "Arthur Ravenscroft",
-        image: "images/HenryIanCusick.jpg",
-        peerage: "Viscount",
-        address: "Lord Ravenscroft",
-        age: "58 (deceased)",
-        faceclaim: "Henry Ian Cusick",
-        deceased: true,
-        hasInfo: false,
-        playedBy: "None"
+        id: "viper",
+        name: "Viper",
+        image: "images/LucyLawless.png",
+        class: "Fighter",
+        species: "Goblin",
+        age: "60",
+        origin: "Lucy Lawless",
+        hasInfo: true,
+        playedBy: "Scott"
+
     },
 
     {
-        id: "judith",
+        id: "clarina",
+        name: "Clarina",
+        image: "images/AnyaTaylorJoy.png",
+        class: "Rogue",
+        species: "Half-Elf",
+        age: "Unknown",
+        origin: "Clavaudhna",
+        hasInfo: true,
+        playedBy: "Melissa"
+    },
+
+    {
+        id: "catalina",
+        name: "Catalina",
+        image: "images/JENNIFER_COOLIDGE_5.png",
+        class: "Warlock",
+        species: "Mermaid",
+        age: "22",
+        origin: "Quare",
+        hasInfo: true,
+        playedBy: "Nevi"
+    },
+
+    {
+        id: "virdan",
+        name: "Virdan",
+        image: "images/PatrickGibson.png",
+        class: "Armorer Artificer",
+        species: "Firbolg",
+        age: "21",
+        origin: "Sayak",
+        hasInfo: true,
+        playedBy: "Phillip"
+    },
+
+    {
+        id: "valerian",
+        name: "Valerian",
+        image: "images/RufusSewell.png",
+        class: "Cleric",
+        species: "Human",
+        age: "26",
+        origin: "Avara",
+        hasInfo: true,
+        playedBy: "Malum"
+    },
+
+    {
+        id: "castor",
+        name: "Castor",
+        image: "images/TobyAlexanderSmith.png",
+        class: "Caster",
+        species: "Tabaxi",
+        age: "27",
+        origin: "Clavaudhna",
+        hasInfo: true,
+        playedBy: "Abe"
+
+    },
+
+    {
+        id: "anju",
+        name: "Anju",
+        image: "images/ChristianDaloi3.png",
+        class: "Circle of Shepherds Druid",
+        species: "Half-Elf",
+        age: 26,
+        origin: "Effigy",
+        hasInfo: true,
+        playedBy: "Dale"
+    },
+
+    {
+        id: "emily",
+        name: "placeholder",
+        image: "images/HenryIanCusick.jpg",
+        class: "Oath of Vengeance Paladin",
+        species: "Lizardfolk",
+        age: "Unknown",
+        origin: "The Glasslands",
+        hasInfo: true,
+        playedBy: "Emily"
+    },
+
+    {
+        id: "Dana",
         name: "Judith Ravenscroft",
         image: "images/melissa-ponzio.png",
-        peerage: "Viscountess",
-        address: "Lady Ravenscroft",
+        class: "Viscountess",
+        species: "Lady Ravenscroft",
         age: "49",
-        faceclaim: "Melissa Ponzio",
-        hasInfo: false,
-        playedBy: "Zach"
+        origin: "Melissa Ponzio",
+        hasInfo: true,
+        playedBy: "Dana"
     },
 
     {
-        id: "simon",
-        name: "Simon Ravenscroft",
+        id: "leander",
+        name: "Leander",
         image: "images/EoinMacke.png",
-        peerage: "Viscount",
-        address: "Lord Ravenscroft",
+        class: "Way of Mercy Monk",
+        species: "Wood Elf",
         age: "53",
-        faceclaim: "Eoin Macke",
+        origin: "Evoler",
         hasInfo: false,
-        playedBy: "Zach"
+        playedBy: "Orion"
     },
 
     {
-        id: "helena",
-        name: "Helena Ravenscroft",
+        id: "blank",
+        name: "Blank Slate",
         image: "images/Sarah Vidorreta 2.jpg",
-        peerage: "Sister of a Viscount",
-        address: "Miss Ravenscroft",
-        age: 23,
-        faceclaim: "Sarah Vidorreta",
+        class: "Barbarian",
+        species: "Warforged",
+        age: "2",
+        origin: "Evoler",
         hasInfo: true,
-        playedBy: "Nevi"
-    },
-
-    {
-        id: 'timothy',
-        name: "Timothy Belmont",
-        image: "images/ZachEffron.png",
-        peerage: "None",
-        address: "Mr. Belmont",
-        age: "26",
-        faceclaim: "Zac Effron",
-        hasInfo: true,
-        playedBy: "Zach"
-    },
-
-    {
-        id: "piers",
-        name: "Piers Graham",
-        image: "images/JamesNorton.png",
-        peerage: "Clergy",
-        address: "Father Graham",
-        age: "34",
-        faceclaim: "James Norton",
-        hasInfo: true,
-        playedBy: "Zach"
-    },
-
-    {
-        id: "cecil",
-        name: "Cecil Whitmore",
-        image: "images/LouisGarrel.jpg",
-        peerage: "Duke",
-        address: "Lord Whitmore",
-        age: "39",
-        faceclaim: "Louis Garrel",
-        hasInfo: true,
-        playedBy: "Zach"
-    },
-
-    {
-        id: "ben",
-        name: "Benedict Huntington IV",
-        image: "images/Jungkook.png",
-        peerage: "Marquess",
-        address: "Lord Huntington",
-        age: 25,
-        faceclaim: "Jung Kook",
-        hasInfo: false,
-        playedBy: "TBD"
-    },
-
-    {
-        id: "daisy",
-        name: "Daisy Warwick",
-        image: "images/EssieDavis.jpg",
-        peerage: "Daughter of a Count",
-        address: "Miss Warwick",
-        age: 24,
-        faceclaim: "Essie Davis",
-        hasInfo: true,
-        playedBy: "Joel"
-    },
-
-    {
-        id: "sophia",
-        name: "Sophia Lloyd",
-        image: "images/TanyaRavichandran.png",
-        peerage: "Daughter of a Duke",
-        address: "Lady Lloyd",
-        age: "24",
-        faceclaim: "Tanya Ravichandran",
-        hasInfo: false,
-        playedBy: "Kay"
-    },
-
-    {
-        id: "andrew",
-        name: "Andrew Partridge",
-        image: "images/CallumTurner.png",
-        peerage: "Earl of Glenroth",
-        address: "Lord Glenroth",
-        age: "22 (deceased)",
-        faceclaim: "Callum Turner",
-        deceased: true,
-        hasInfo: false,
-        playedBy: "None"
-    },
-    
-    {
-        id: "warren",
-        name: "Warren Beckham",
-        image: "images/AidanTurner.png",
-        peerage: "None",
-        address: "Mr. Beckham",
-        age: 29,
-        faceclaim: "Aidian Turner",
-        hasInfo: false,
-        playedBy: "Zach"
+        playedBy: "Palom"
     }
 ]
