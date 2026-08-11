@@ -15,7 +15,7 @@ export const characters = [
     {
         id: "xeno",
         name: "Xeno Varyn (Izneris)",
-        image: "images/XenoVaryn.png",
+        image: "images/Xeno.png",
         class: "Clockwork Sorcerer",
         species: "Elf",
         age: 24,
@@ -100,7 +100,7 @@ export const characters = [
     {
         id: "catalina",
         name: "Catalina",
-        image: "images/.png",
+        image: "images/catalina.png",
         class: "Warlock",
         species: "Mermaid",
         age: "22",
@@ -161,7 +161,7 @@ export const characters = [
     {
         id: "emily",
         name: "placeholder",
-        image: "images/FaceIconPlaceholder.jpg",
+        image: "images/FaceIconPlaceholder.png",
         class: "Oath of Vengeance Paladin",
         species: "Lizardfolk",
         age: "Unknown",
@@ -172,7 +172,7 @@ export const characters = [
 
     {
         id: "Dana",
-        name: "Judith Ravenscroft",
+        name: "Dana",
         image: "images/FaceIconPlaceholder.png",
         class: "Viscountess",
         species: "Lady Ravenscroft",
@@ -197,7 +197,7 @@ export const characters = [
     {
         id: "blank",
         name: "Blank Slate",
-        image: "images/FaceIconPlaceholder.jpg",
+        image: "images/FaceIconPlaceholder.png",
         class: "Barbarian",
         species: "Warforged",
         age: "2",
