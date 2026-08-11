@@ -15,7 +15,7 @@ export const characters = [
     {
         id: "xeno",
         name: "Xeno Varyn (Izneris)",
-        image: "images/AK.jpg",
+        image: "images/XenoVaryn.png",
         class: "Clockwork Sorcerer",
         species: "Elf",
         age: 24,
@@ -27,7 +27,7 @@ export const characters = [
     {
         id: "nzuri",
         name: "Nzuri Alshaar",
-        image: "images/BirkanSokullu.png",
+        image: "images/Nzuri.png",
         class: "Bond of Dragonkin Soulbinder",
         species: "Human",
         age: "21",
@@ -39,7 +39,7 @@ export const characters = [
     {
         id: "sapphire",
         name: "Sapphire 'Saf' Alshaar",
-        image: "images/AdeelAkhtar.png",
+        image: "images/sapphire.png",
         class: "Mastermaker Artificer",
         species: "Human",
         age: "24",
@@ -51,7 +51,7 @@ export const characters = [
     {
         id: "pollux",
         name: "Pollux",
-        image: "images/RichardMadden.png",
+        image: "images/Pollux.png",
         class: "Fighter",
         species: "Tabaxi",
         age: "29",
@@ -63,7 +63,7 @@ export const characters = [
     {
         id: "llyr",
         name: "Llyr Verran",
-        image: "images/SebastianAmoruso.png",
+        image: "images/Llyr.png",
         class: "Runecrafter Wizard",
         species: "Human",
         age: "28",
@@ -75,7 +75,7 @@ export const characters = [
     {
         id: "viper",
         name: "Viper",
-        image: "images/LucyLawless.png",
+        image: "images/Viper.png",
         class: "Fighter",
         species: "Goblin",
         age: "60",
@@ -88,7 +88,7 @@ export const characters = [
     {
         id: "clarina",
         name: "Clarina",
-        image: "images/AnyaTaylorJoy.png",
+        image: "images/Clarina.png",
         class: "Rogue",
         species: "Half-Elf",
         age: "Unknown",
@@ -100,7 +100,7 @@ export const characters = [
     {
         id: "catalina",
         name: "Catalina",
-        image: "images/JENNIFER_COOLIDGE_5.png",
+        image: "images/.png",
         class: "Warlock",
         species: "Mermaid",
         age: "22",
@@ -112,7 +112,7 @@ export const characters = [
     {
         id: "virdan",
         name: "Virdan",
-        image: "images/PatrickGibson.png",
+        image: "images/Virdan.png",
         class: "Armorer Artificer",
         species: "Firbolg",
         age: "21",
@@ -124,7 +124,7 @@ export const characters = [
     {
         id: "valerian",
         name: "Valerian",
-        image: "images/RufusSewell.png",
+        image: "images/Valerian.png",
         class: "Cleric",
         species: "Human",
         age: "26",
@@ -136,7 +136,7 @@ export const characters = [
     {
         id: "castor",
         name: "Castor",
-        image: "images/TobyAlexanderSmith.png",
+        image: "images/FaceIconPlaceholder.png",
         class: "Caster",
         species: "Tabaxi",
         age: "27",
@@ -149,7 +149,7 @@ export const characters = [
     {
         id: "anju",
         name: "Anju",
-        image: "images/ChristianDaloi3.png",
+        image: "images/Anju.png",
         class: "Circle of Shepherds Druid",
         species: "Half-Elf",
         age: 26,
@@ -161,7 +161,7 @@ export const characters = [
     {
         id: "emily",
         name: "placeholder",
-        image: "images/HenryIanCusick.jpg",
+        image: "images/FaceIconPlaceholder.jpg",
         class: "Oath of Vengeance Paladin",
         species: "Lizardfolk",
         age: "Unknown",
@@ -173,7 +173,7 @@ export const characters = [
     {
         id: "Dana",
         name: "Judith Ravenscroft",
-        image: "images/melissa-ponzio.png",
+        image: "images/FaceIconPlaceholder.png",
         class: "Viscountess",
         species: "Lady Ravenscroft",
         age: "49",
@@ -185,7 +185,7 @@ export const characters = [
     {
         id: "leander",
         name: "Leander",
-        image: "images/EoinMacke.png",
+        image: "images/Leander.png",
         class: "Way of Mercy Monk",
         species: "Wood Elf",
         age: "53",
@@ -197,7 +197,7 @@ export const characters = [
     {
         id: "blank",
         name: "Blank Slate",
-        image: "images/Sarah Vidorreta 2.jpg",
+        image: "images/FaceIconPlaceholder.jpg",
         class: "Barbarian",
         species: "Warforged",
         age: "2",
