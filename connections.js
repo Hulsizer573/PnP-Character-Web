@@ -3,204 +3,101 @@ export const connections = [
 
 
     { 
-        from: 'elenor', 
-        to: 'helena', 
+        from: 'castor', 
+        to: 'pollux', 
         lineId: 'line1', 
-        type: 'Platonic',
-        subtype: 'Friends'
-    },
-
-    { 
-        from: 'helena', 
-        to: 'arthur', 
-        lineId: 'line2',
-        type: 'Familial',
-        subtype: 'Parent/Child'
-    },
-
-    { 
-        from: 'damian', 
-        to: 'helena', 
-        lineId: 'line3',
         type: 'Familial',
         subtype: 'Siblings'
     },
 
     { 
-        from: 'elenor', 
-        to: 'warren', 
+        from: 'nzuri', 
+        to: 'sapphire', 
+        lineId: 'line2',
+        type: 'Familial',
+        subtype: 'Siblings'
+    },
+
+    { 
+        from: 'nzuri', 
+        to: 'anju', 
+        lineId: 'line3',
+        type: 'Romantic',
+        subtype: 'Girlfriends'
+    },
+
+    { 
+        from: 'anju', 
+        to: 'sapphire', 
         lineId: 'line4',
-        type: 'Other',
-        subtype: 'Employer/Body Guard'
+        type: 'Platonic',
+        subtype: 'Traveling companions'
     },
 
     { 
-        from: 'elenor', 
-        to: 'andrew', 
+        from: 'sapphire', 
+        to: 'castor', 
         lineId: 'line5',
-        type: 'Other',
-        subtype: 'Business Associate'
+        type: 'Platonic',
+        subtype: 'Training buddies'
     },
 
     { 
-        from: 'elenor', 
-        to: 'forbes', 
+        from: 'sapphire', 
+        to: 'valerian', 
         lineId: 'line6',
-        type: 'Romantic',
-        subtype: 'Former Spouse'
+        type: 'Platonic',
+        subtype: 'Prosthesis Tech'
     },
 
     { 
-        from: 'elenor', 
-        to: 'nigel', 
+        from: 'nzuri', 
+        to: 'catalina', 
         lineId: 'line7',
-        type: 'Other',
-        subtype: 'Business Associate'
+        type: 'Platonic',
+        subtype: 'Healed and helped'
     },
 
     { 
-        from: 'damian',
-        to: 'arthur', 
+        from: 'nzuri',
+        to: 'viper', 
         lineId: 'line8',
-        type: 'Familial',
-        subtype: 'Parent/Child'
+        type: 'Platonic',
+        subtype: 'Childhood friends'
     },
 
     { 
-        from: 'damian', 
-        to: 'rosalind', 
+        from: 'valerian', 
+        to: 'clarina', 
         lineId: 'line9',
-        type: 'Other',
-        subtype: 'Something'
+        type: 'Platonic',
+        subtype: 'Childhood Friends'
     },
 
     { 
-        from: 'rosalind', 
-        to: 'damian', 
+        from: 'valerian', 
+        to: 'leander', 
         lineId: 'line10',
-        type: 'Other',
-        subtype: 'Something'
+        type: 'Platonic',
+        subtype: 'Aquantances at the flower shop/clinic'
     },
 
     { 
-        from: 'damian', 
-        to: 'judith', 
+        from: 'virdan', 
+        to: 'sapphire', 
         lineId: 'line11',
-        type: 'Familial',
-        subtype: 'Parent/Child'
+        type: 'Platonic',
+        subtype: 'Crossed paths'
     },
 
     { 
-        from: 'helena', 
-        to: 'judith', 
+        from: 'sapphire', 
+        to: 'viper', 
         lineId: 'line12',
-        type: 'Familial',
-        subtype: 'Parent/Child'
-    },
-
-    { 
-        from: 'imelda', 
-        to: 'edward', 
-        lineId: 'line13',
-        type: 'Familial',
-        subtype: 'Parent/Child'
-    },
-
-    { 
-        from: 'imelda', 
-        to: 'esmerelda', 
-        lineId: 'line14',
-        type: 'Familial',
-        subtype: 'Parent/Child'
-    },
-
-    { 
-        from: 'arthur', 
-        to: 'judith', 
-        lineId: 'line15',
-        type: 'Romantic',
-        subtype: 'Former Spouse'
-    },
-
-    {
-        from: 'edward',
-        to: 'esmerelda',
-        lineId: 'line16',
-        type: 'Familial',
-        subtype: 'Parent/Child'
-    },
-
-    {
-        from: 'judith',
-        to: 'simon',
-        lineId: 'line17',
-        type: 'Romantic',
-        subtype: 'Spouse'
-    },
-
-    {
-        from: 'helena',
-        to: 'simon',
-        lineId: 'line18',
-        type: 'Familial',
-        subtype: 'Uncle/Niece'
-    },
-
-    {
-        from: 'damian',
-        to: 'simon',
-        lineId: 'line19',
-        type: 'Familial',
-        subtype: 'Uncle/Nephew'
-    },
-
-    {
-        from: 'imelda',
-        to: 'patricia',
-        lineId: 'line20',
-        type: 'Other',
-        subtype: 'Employer/Maid'
-    },
-
-    {
-        from: 'helena',
-        to: 'daisy',
-        lineId: 'line21',
         type: 'Platonic',
-        subtype: 'Friends',
-    },
+        subtype: 'Met during a train robbery'
+    }
 
-    {
-        from: 'elenor',
-        to: 'daisy',
-        lineId: 'line22',
-        type: 'Platonic',
-        subtype: 'Friends'
-    },
-
-    {
-        from: 'james',
-        to: 'rosalind',
-        lineId: 'line23',
-        type: 'Romantic',
-        subtype: 'Married'
-    },
-
-    {
-        from: 'imelda',
-        to: 'elenor',
-        lineId: 'line24',
-        type: 'Other',
-        subtype: 'Mentor/Mentee'
-    },
-
-    {
-        from: 'daisy',
-        to: 'ben',
-        lineId: 'line25',
-        type: 'Other',
-        subtype: 'Grievant/Respondent'
-    },
 ];
 
 // Connections colors
